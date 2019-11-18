@@ -1,0 +1,178 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+#me p{
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+
+}
+h3{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+#nav_container
+{
+  width:500px;
+  height:60px;
+  background:#2980b9;
+  margin:0 auto;
+  border-radius:20px;
+  text-align:center;
+  margin-top:60px;
+  padding-left: 30px;
+  box-shadow:0px 5px 0px #87561f, 0px 0px 7px black;
+}
+nav span
+{
+  margin-left:20px;
+  font-size:20px;
+  color:white;
+  font-family:sans-serif;
+  position:relative;top:22px;left:-2px;
+  z-index:1;
+  padding:20px 0px 20px 0px;
+  cursor:pointer;
+}
+nav span:active
+{
+  opacity:0.3;
+}
+a{
+  text-decoration: none;
+}
+#me img{
+  height: auto;
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 0;
+  border-radius: 50%;
+  justify-content: space-around;
+ margin-left: 500px;
+  
+}
+.tech{
+  border-radius: 8px;
+  height: 400px;
+  width: 500px;
+}
+#display{
+  
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 80px;
+  margin-right: 100px;
+  font-size: 50px;
+
+  
+}
+h1{
+  margin-left:700px;
+  -webkit-margin-before: 0;
+  color:hsl(0, 3%, 88%); 
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  
+}
+
+
+.work-done{
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
+
+}
+header{
+  height: 600px;
+  background-image: url('images/ty.jpg');
+  background-size: cover;
+}
+.column{
+  padding: 20px;
+  margin: 10px 10px 10px 0;
+}
+#intro {
+  background-color:lightblack;
+  color: white;
+  position: fixed;
+  font-size: 15px;
+
+}
+#intro a{
+  float:left;
+  text-align:left;
+  padding: 10px 12px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+ 
+}
+#intro a.active{
+  background-color:white;
+  color:white;
+}
+#me{
+  font-size: 20px;
+  
+}
+#skills{
+  background-image:url('images/bvn1.jpg') ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  
+  color: white;
+  flex: 1;
+  margin-right: 0;
+  font-size: 20px;
+}
+h2{
+  text-align:center;
+}
+.tech{
+  height: 100px;
+  width: 100px;
+  margin-left: 200px;
+}
+#done{
+  /* background-image: url('images/bute.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  background-color:#1E4258;
+  color:white;
+  font-size: 20px;
+  padding: 5px;
+}
+.last{
+  height: 200px;
+  width: 300px;
+}
+#but{
+
+  float: right;
+  border-radius: 50%;
+  background-color: rgb(202, 150, 7);
+  color: white;
+}
+footer{
+  background:url('images/bute.jpeg');
+  display: flex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  
+}
+button{
+  padding: 10px;
+  
+}
