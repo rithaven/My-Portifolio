@@ -1,5 +1,5 @@
 
-body{
+html,body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -89,6 +89,16 @@ h2{
   width: 300px;
 
 }
+.move{
+  animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: hsl(209, 89%, 44%);    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: hsl(214, 89%, 44%);    }
+}
 header{
   height: 600px;
   background-image: url('images/ty.jpg');
@@ -98,11 +108,20 @@ header{
   padding: 20px;
   margin: 10px 10px 10px 0;
 }
+.mimi{
+  margin-top: 100px;
+  margin-right: 300px;
+}
+.mimi h2{
+  color:white;
+  margin-left: 500px;
+}
 #intro {
   background-color:lightblack;
   color: white;
   position: fixed;
   font-size: 15px;
+  margin-left: 50px;
 
 }
 #intro a{
@@ -119,11 +138,12 @@ header{
   color:white;
 }
 #me{
-  font-size: 20px;
-  background-image: url(images/me.gif);
+  font-size: 30px;
+  background-color:white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  
   
 }
 #done a{
@@ -133,7 +153,7 @@ header{
 }
 
 #skills{
-  background-image:url('images/bvn1.jpg') ;
+  background-image:url('images/code.jpg') ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -143,6 +163,7 @@ header{
   flex: 1;
   margin-right: 0;
   font-size: 20px;
+  padding-bottom: 40px;
 }
 h2{
   text-align:center;
@@ -170,7 +191,7 @@ h2{
 
   float: right;
   border-radius: 50%;
-  background-color: rgb(202, 150, 7);
+  background-color: blue;
   color: white;
 }
 footer{
